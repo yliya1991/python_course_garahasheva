@@ -13,12 +13,9 @@ def parse_cookie(query: str) -> dict:
         except ValueError:
             pass
 
-        if result.get('age'):
-            if (result.get('age')).isdigit():
-                pass
-            else:
-                result.pop('age')
-
+        if not (result.get('age')).isdigit():
+            result.pop('age')
+              
     return result
 
 if __name__ == '__main__':
