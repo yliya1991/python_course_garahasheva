@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 def parse_cookie(query: str) -> dict:
     result = {}
     
