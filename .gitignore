@@ -4,3 +4,4 @@
 env/
 __pycache__/
 *.pyc
+"python.pythonPath": "/usr/bin/python3.8"
